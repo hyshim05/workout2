@@ -123,7 +123,6 @@ server <- function(input, output) {
   
   output$plot <- renderPlot({
     
-    
     year <- seq(0, input$years, 1)
     no_contrib <- rep(0, length(year))
     fixed_contrib <- rep(0, length(year))
